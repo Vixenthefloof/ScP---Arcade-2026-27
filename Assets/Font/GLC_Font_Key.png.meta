@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 96
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GLC_Font_Key_0
+      name: Font_A
       rect:
         serializedVersion: 2
         x: 0
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_1
+      name: Font_B
       rect:
         serializedVersion: 2
         x: 16
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_2
+      name: Font_C
       rect:
         serializedVersion: 2
         x: 32
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_3
+      name: Font_D
       rect:
         serializedVersion: 2
         x: 48
@@ -214,7 +214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_4
+      name: Font_E
       rect:
         serializedVersion: 2
         x: 64
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_5
+      name: Font_F
       rect:
         serializedVersion: 2
         x: 80
@@ -258,7 +258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_6
+      name: Font_G
       rect:
         serializedVersion: 2
         x: 96
@@ -280,7 +280,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_7
+      name: Font_H
       rect:
         serializedVersion: 2
         x: 112
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_8
+      name: Font_I
       rect:
         serializedVersion: 2
         x: 128
@@ -324,7 +324,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_9
+      name: Font_J
       rect:
         serializedVersion: 2
         x: 144
@@ -346,7 +346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_10
+      name: Font_K
       rect:
         serializedVersion: 2
         x: 160
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_11
+      name: Font_L
       rect:
         serializedVersion: 2
         x: 176
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_12
+      name: Font_M
       rect:
         serializedVersion: 2
         x: 192
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_13
+      name: Font_N
       rect:
         serializedVersion: 2
         x: 0
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_14
+      name: Font_O
       rect:
         serializedVersion: 2
         x: 16
@@ -456,7 +456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_15
+      name: Font_P
       rect:
         serializedVersion: 2
         x: 32
@@ -478,7 +478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_16
+      name: Font_Q
       rect:
         serializedVersion: 2
         x: 48
@@ -500,7 +500,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_17
+      name: Font_R
       rect:
         serializedVersion: 2
         x: 64
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_18
+      name: Font_S
       rect:
         serializedVersion: 2
         x: 80
@@ -544,7 +544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_19
+      name: Font_T
       rect:
         serializedVersion: 2
         x: 96
@@ -566,7 +566,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_20
+      name: Font_U
       rect:
         serializedVersion: 2
         x: 112
@@ -588,7 +588,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_21
+      name: Font_V
       rect:
         serializedVersion: 2
         x: 128
@@ -610,7 +610,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_22
+      name: Font_W
       rect:
         serializedVersion: 2
         x: 144
@@ -632,7 +632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_23
+      name: Font_X
       rect:
         serializedVersion: 2
         x: 160
@@ -654,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_24
+      name: Font_Y
       rect:
         serializedVersion: 2
         x: 176
@@ -676,7 +676,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_25
+      name: Font_Z
       rect:
         serializedVersion: 2
         x: 192
@@ -698,7 +698,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_26
+      name: Font_Red_A
       rect:
         serializedVersion: 2
         x: 0
@@ -720,7 +720,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_27
+      name: Font_Red_B
       rect:
         serializedVersion: 2
         x: 16
@@ -742,7 +742,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_28
+      name: Font_Red_C
       rect:
         serializedVersion: 2
         x: 32
@@ -764,7 +764,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_29
+      name: Font_Red_D
       rect:
         serializedVersion: 2
         x: 48
@@ -786,7 +786,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_30
+      name: Font_Red_E
       rect:
         serializedVersion: 2
         x: 64
@@ -808,7 +808,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_31
+      name: Font_Red_F
       rect:
         serializedVersion: 2
         x: 80
@@ -830,7 +830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_32
+      name: Font_Red_G
       rect:
         serializedVersion: 2
         x: 96
@@ -852,7 +852,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_33
+      name: Font_Red_H
       rect:
         serializedVersion: 2
         x: 112
@@ -874,7 +874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_34
+      name: Font_Red_I
       rect:
         serializedVersion: 2
         x: 128
@@ -896,7 +896,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_35
+      name: Font_Red_J
       rect:
         serializedVersion: 2
         x: 144
@@ -918,7 +918,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_36
+      name: Font_Red_K
       rect:
         serializedVersion: 2
         x: 160
@@ -940,7 +940,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_37
+      name: Font_Red_L
       rect:
         serializedVersion: 2
         x: 176
@@ -962,7 +962,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_38
+      name: Font_Red_M
       rect:
         serializedVersion: 2
         x: 192
@@ -984,7 +984,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_39
+      name: Font_Red_N
       rect:
         serializedVersion: 2
         x: 0
@@ -1006,7 +1006,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_40
+      name: Font_Red_O
       rect:
         serializedVersion: 2
         x: 16
@@ -1028,7 +1028,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_41
+      name: Font_Red_P
       rect:
         serializedVersion: 2
         x: 32
@@ -1050,7 +1050,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_42
+      name: Font_Red_Q
       rect:
         serializedVersion: 2
         x: 48
@@ -1072,7 +1072,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_43
+      name: Font_Red_R
       rect:
         serializedVersion: 2
         x: 64
@@ -1094,7 +1094,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_44
+      name: Font_Red_S
       rect:
         serializedVersion: 2
         x: 80
@@ -1116,7 +1116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_45
+      name: Font_Red_T
       rect:
         serializedVersion: 2
         x: 96
@@ -1138,7 +1138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_46
+      name: Font_Red_U
       rect:
         serializedVersion: 2
         x: 112
@@ -1160,7 +1160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_47
+      name: Font_Red_V
       rect:
         serializedVersion: 2
         x: 128
@@ -1182,7 +1182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_48
+      name: Font_Red_W
       rect:
         serializedVersion: 2
         x: 144
@@ -1204,7 +1204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_49
+      name: Font_Red_X
       rect:
         serializedVersion: 2
         x: 160
@@ -1226,7 +1226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_50
+      name: Font_Red_Y
       rect:
         serializedVersion: 2
         x: 176
@@ -1248,7 +1248,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_51
+      name: Font_Red_Z
       rect:
         serializedVersion: 2
         x: 192
@@ -1270,7 +1270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_52
+      name: Font_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1292,7 +1292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_53
+      name: Font_1
       rect:
         serializedVersion: 2
         x: 16
@@ -1314,7 +1314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_54
+      name: Font_2
       rect:
         serializedVersion: 2
         x: 32
@@ -1336,7 +1336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_55
+      name: Font_3
       rect:
         serializedVersion: 2
         x: 48
@@ -1358,7 +1358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_56
+      name: Font_4
       rect:
         serializedVersion: 2
         x: 64
@@ -1380,7 +1380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_57
+      name: Font_5
       rect:
         serializedVersion: 2
         x: 80
@@ -1402,7 +1402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_58
+      name: Font_6
       rect:
         serializedVersion: 2
         x: 96
@@ -1424,7 +1424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_59
+      name: Font_7
       rect:
         serializedVersion: 2
         x: 112
@@ -1446,7 +1446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_60
+      name: Font_8
       rect:
         serializedVersion: 2
         x: 128
@@ -1468,7 +1468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_61
+      name: Font_9
       rect:
         serializedVersion: 2
         x: 144
@@ -1490,7 +1490,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_62
+      name: Font_Dash
       rect:
         serializedVersion: 2
         x: 160
@@ -1512,7 +1512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_63
+      name: Font_Colon
       rect:
         serializedVersion: 2
         x: 176
@@ -1534,7 +1534,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_64
+      name: Font_Blank
       rect:
         serializedVersion: 2
         x: 192
@@ -1556,7 +1556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_65
+      name: Font_Red_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1578,7 +1578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_66
+      name: Font_Red_1
       rect:
         serializedVersion: 2
         x: 16
@@ -1600,7 +1600,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_67
+      name: Font_Red_2
       rect:
         serializedVersion: 2
         x: 32
@@ -1622,7 +1622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_68
+      name: Font_Red_3
       rect:
         serializedVersion: 2
         x: 48
@@ -1644,7 +1644,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_69
+      name: Font_Red_4
       rect:
         serializedVersion: 2
         x: 64
@@ -1666,7 +1666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_70
+      name: Font_Red_5
       rect:
         serializedVersion: 2
         x: 80
@@ -1688,7 +1688,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_71
+      name: Font_Red_6
       rect:
         serializedVersion: 2
         x: 96
@@ -1710,7 +1710,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_72
+      name: Font_Red_7
       rect:
         serializedVersion: 2
         x: 112
@@ -1732,7 +1732,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_73
+      name: Font_Red_8
       rect:
         serializedVersion: 2
         x: 128
@@ -1754,7 +1754,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_74
+      name: Font_Red_9
       rect:
         serializedVersion: 2
         x: 144
@@ -1776,7 +1776,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_75
+      name: Font_Red_Dash
       rect:
         serializedVersion: 2
         x: 160
@@ -1798,7 +1798,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_76
+      name: Font_Red_Colon
       rect:
         serializedVersion: 2
         x: 176
@@ -1820,7 +1820,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GLC_Font_Key_77
+      name: Font_CopyRight
       rect:
         serializedVersion: 2
         x: 192
@@ -1857,84 +1857,84 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":16.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      GLC_Font_Key_0: 5696568912951879261
-      GLC_Font_Key_1: -1241467368
-      GLC_Font_Key_10: 1562145042
-      GLC_Font_Key_11: 1721445177
-      GLC_Font_Key_12: 766214035
-      GLC_Font_Key_13: -1548164946
-      GLC_Font_Key_14: -755312609
-      GLC_Font_Key_15: 1785767455
-      GLC_Font_Key_16: 1740567853
-      GLC_Font_Key_17: 212762373
-      GLC_Font_Key_18: -1336311643
-      GLC_Font_Key_19: -2121267338
-      GLC_Font_Key_2: -515892264
-      GLC_Font_Key_20: -335818042
-      GLC_Font_Key_21: -443553495
-      GLC_Font_Key_22: -43107514
-      GLC_Font_Key_23: 1466926591
-      GLC_Font_Key_24: 1029956573
-      GLC_Font_Key_25: 913996655
-      GLC_Font_Key_26: -2141331579
-      GLC_Font_Key_27: -39834154
-      GLC_Font_Key_28: -342386853
-      GLC_Font_Key_29: -804843846
-      GLC_Font_Key_3: 332040335
-      GLC_Font_Key_30: 409593241
-      GLC_Font_Key_31: -109461979
-      GLC_Font_Key_32: 1974926584
-      GLC_Font_Key_33: -516747467
-      GLC_Font_Key_34: 1595978346
-      GLC_Font_Key_35: 1646561656
-      GLC_Font_Key_36: -1537800965
-      GLC_Font_Key_37: -1175088558
-      GLC_Font_Key_38: 772125152
-      GLC_Font_Key_39: 1875420893
-      GLC_Font_Key_4: -827850273
-      GLC_Font_Key_40: -1824092956
-      GLC_Font_Key_41: 475191635
-      GLC_Font_Key_42: -348908829
-      GLC_Font_Key_43: -759110818
-      GLC_Font_Key_44: 506630769
-      GLC_Font_Key_45: 1647573852
-      GLC_Font_Key_46: 1552187439
-      GLC_Font_Key_47: -1376204333
-      GLC_Font_Key_48: -753945403
-      GLC_Font_Key_49: -1030892451
-      GLC_Font_Key_5: 1780709355
-      GLC_Font_Key_50: 1204688730
-      GLC_Font_Key_51: -447860809
-      GLC_Font_Key_52: 890166583
-      GLC_Font_Key_53: 120271554
-      GLC_Font_Key_54: 945245281
-      GLC_Font_Key_55: -2006160577
-      GLC_Font_Key_56: 2099122777
-      GLC_Font_Key_57: 267807565
-      GLC_Font_Key_58: -1552384072
-      GLC_Font_Key_59: 432654890
-      GLC_Font_Key_6: 1207089521
-      GLC_Font_Key_60: -616967991
-      GLC_Font_Key_61: 1405820780
-      GLC_Font_Key_62: -897233266
-      GLC_Font_Key_63: 1407821953
-      GLC_Font_Key_64: 1180715980
-      GLC_Font_Key_65: 697042846
-      GLC_Font_Key_66: 764462548
-      GLC_Font_Key_67: 701197858
-      GLC_Font_Key_68: -1898571000
-      GLC_Font_Key_69: -2019274602
-      GLC_Font_Key_7: -445316435
-      GLC_Font_Key_70: 900893185
-      GLC_Font_Key_71: 2002598829
-      GLC_Font_Key_72: -1617861246
-      GLC_Font_Key_73: 1685103516
-      GLC_Font_Key_74: -1428156444
-      GLC_Font_Key_75: 1969082590
-      GLC_Font_Key_76: -1960038827
-      GLC_Font_Key_77: -2135841073
-      GLC_Font_Key_8: 1620120071
-      GLC_Font_Key_9: 1992751278
+      Font_0: 890166583
+      Font_1: 120271554
+      Font_2: 945245281
+      Font_3: -2006160577
+      Font_4: 2099122777
+      Font_5: 267807565
+      Font_6: -1552384072
+      Font_7: 432654890
+      Font_8: -616967991
+      Font_9: 1405820780
+      Font_A: 5696568912951879261
+      Font_B: -1241467368
+      Font_Blank: 1180715980
+      Font_C: -515892264
+      Font_Colon: 1407821953
+      Font_CopyRight: -2135841073
+      Font_D: 332040335
+      Font_Dash: -897233266
+      Font_E: -827850273
+      Font_F: 1780709355
+      Font_G: 1207089521
+      Font_H: -445316435
+      Font_I: 1620120071
+      Font_J: 1992751278
+      Font_K: 1562145042
+      Font_L: 1721445177
+      Font_M: 766214035
+      Font_N: -1548164946
+      Font_O: -755312609
+      Font_P: 1785767455
+      Font_Q: 1740567853
+      Font_R: 212762373
+      Font_Red_0: 697042846
+      Font_Red_1: 764462548
+      Font_Red_2: 701197858
+      Font_Red_3: -1898571000
+      Font_Red_4: -2019274602
+      Font_Red_5: 900893185
+      Font_Red_6: 2002598829
+      Font_Red_7: -1617861246
+      Font_Red_8: 1685103516
+      Font_Red_9: -1428156444
+      Font_Red_A: -2141331579
+      Font_Red_B: -39834154
+      Font_Red_C: -342386853
+      Font_Red_Colon: -1960038827
+      Font_Red_D: -804843846
+      Font_Red_Dash: 1969082590
+      Font_Red_E: 409593241
+      Font_Red_F: -109461979
+      Font_Red_G: 1974926584
+      Font_Red_H: -516747467
+      Font_Red_I: 1595978346
+      Font_Red_J: 1646561656
+      Font_Red_K: -1537800965
+      Font_Red_L: -1175088558
+      Font_Red_M: 772125152
+      Font_Red_N: 1875420893
+      Font_Red_O: -1824092956
+      Font_Red_P: 475191635
+      Font_Red_Q: -348908829
+      Font_Red_R: -759110818
+      Font_Red_S: 506630769
+      Font_Red_T: 1647573852
+      Font_Red_U: 1552187439
+      Font_Red_V: -1376204333
+      Font_Red_W: -753945403
+      Font_Red_X: -1030892451
+      Font_Red_Y: 1204688730
+      Font_Red_Z: -447860809
+      Font_S: -1336311643
+      Font_T: -2121267338
+      Font_U: -335818042
+      Font_V: -443553495
+      Font_W: -43107514
+      Font_X: 1466926591
+      Font_Y: 1029956573
+      Font_Z: 913996655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
