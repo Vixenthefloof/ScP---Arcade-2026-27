@@ -1181,6 +1181,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Level_Tree
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6908c1c5a10492428299a6527ebd581
+      internalID: -426631852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_Hills
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c2acc2fde7ebe4ebf2fe2e6a32db1b
+      internalID: -1579592211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1249,6 +1293,8 @@ TextureImporter:
       Level_Grass_7: 1336593891
       Level_Grass_8: -17240411
       Level_Grass_9: -893284338
+      Level_Hills: -1579592211
+      Level_Tree: -426631852
       Level_Wall: -671865490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

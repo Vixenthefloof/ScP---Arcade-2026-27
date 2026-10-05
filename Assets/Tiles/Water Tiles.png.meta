@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 30f3a4ddd0e90ff4e9da84809fc7d9ad
+guid: 711a7f0707da686468cfc490dd7a5c88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 401654648710047301
-    second: Bullet_Upgrades_0
-  - first:
-      213: -2869775552003752216
-    second: Bullet_Upgrades_1
-  - first:
-      213: -8884178463672326478
-    second: Bullet_Upgrades_2
+      213: 4761968023316423788
+    second: Water Tiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -80,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -132,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heavy_Bullet_Upgrade
+      name: Water_Tiles_1
       rect:
         serializedVersion: 2
         x: 0
@@ -145,16 +139,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ea6eca657d1f2a849a2886e9fab5c14c
-      internalID: -1858183301
+      spriteID: c646b8defa8e51240800000000000000
+      internalID: 4761968023316423788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Normal_Bullet_Upgrade
+      name: Water_Tiles_2
       rect:
         serializedVersion: 2
         x: 16
@@ -169,36 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ecbb4e9e534d1a428071584523b90e5
-      internalID: -1068555653
+      spriteID: 162be3e3d4a7aa646937a4dbe6ba2d5e
+      internalID: 1572890832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buckshot_Bullet_Upgrade
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e9db32b4e5a0d44d91416c44b15aad1
-      internalID: -1812919775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Heavy_Bullet_Upgrade_1
+      name: Water_Tiles_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8effeff86ed088c4e86c9dde24afc13f
-      internalID: 1639958714
+      spriteID: 1fb7c1346f18be849a9d4aa07a22792c
+      internalID: 583995913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Normal_Bullet_Upgrade_1
+      name: Water_Tiles_4
       rect:
         serializedVersion: 2
         x: 16
@@ -235,30 +207,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f886fc343af1334ea6405c4069feab9
-      internalID: 2063942019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Buckshot_Bullet_Upgrade_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21f4084fe697565439f7c76877bb4e9c
-      internalID: 1970073356
+      spriteID: a60c686284ef4fe4f9ba112bbaeb7598
+      internalID: 631751602
       vertices: []
       indices: 
       edges: []
@@ -267,7 +217,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b9c1f151cc3a5b440a8c0caf5fbd5ad6
+    spriteID: b120c772bec631d4c962352df7aad5ee
     internalID: 0
     vertices: []
     indices: 
@@ -279,12 +229,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Buckshot_Bullet_Upgrade: -1812919775
-      Buckshot_Bullet_Upgrade_1: 1970073356
-      Heavy_Bullet_Upgrade: -1858183301
-      Heavy_Bullet_Upgrade_1: 1639958714
-      Normal_Bullet_Upgrade: -1068555653
-      Normal_Bullet_Upgrade_1: 2063942019
+      Water_Tiles_1: 4761968023316423788
+      Water_Tiles_2: 1572890832
+      Water_Tiles_3: 583995913
+      Water_Tiles_4: 631751602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
