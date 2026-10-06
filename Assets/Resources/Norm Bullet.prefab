@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 141597719521443671}
   - component: {fileID: 5395866887658785189}
   - component: {fileID: 1144345746775288693}
+  - component: {fileID: 5073484345763142637}
   m_Layer: 0
   m_Name: Norm Bullet
   m_TagString: Untagged
@@ -108,8 +109,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_AngularDamping: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -119,7 +120,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &1144345746775288693
 CapsuleCollider2D:
@@ -155,6 +156,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.000025048852, y: 0.0026006699}
-  m_Size: {x: 0.38292912, y: 0.6282997}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.38, y: 0.7}
   m_Direction: 0
+--- !u!114 &5073484345763142637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173570435206928103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c42831cc6d6114f951772e51f96abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'

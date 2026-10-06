@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,14 +9,19 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Player Settings")]
     [SerializeField] private uint moveSpeed; // Creates a variable in unity that changes the MoveSpeed
-    [SerializeField] private uint weaponType; // Creates a variable in unity that describes the current weapon Type
+    public uint weaponType; // Creates a variable in unity that describes the current weapon Type
     [SerializeField] private Rigidbody2D _rb; //Creates a variable in unity that gets the current Rigidbody (Player)
+    public uint playerLives;
     [SerializeField] private Vector2 moveInput;
 
     [Header("Gun Settings")]
     [SerializeField] Transform bulletSpawn;
     [SerializeField] GameObject bulletProj;
     [SerializeField] float bulletSPD;
+    [SerializeField] float bulletCool;
+    [SerializeField] bool canFire;
+
+    public PrefabAssetType NormalShot;
 
     void Start()
     {
@@ -32,9 +39,27 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Fire(InputAction.CallbackContext ctx) // Allows the player to fire
+    {   
+        if (canFire == true)
+        {
+            if (weaponType == 0)
+            {
+                var bullet = Instantiate(Resources.Load<GameObject>("Items/normalShot"));
+                bullet.GetComponent<Rigidbody2D>().linearVelocity = bulletSpawn.up * bulletSPD;
+            }
+        }
+        else
+        {
+            return;
+        }
+        canFire = false;
+        StartCoroutine(bulletCooldown());
+    }
+
+    IEnumerator bulletCooldown()
     {
-        var bullet = Instantiate(bulletProj, bulletSpawn.position, bulletSpawn.rotation);
-        bullet.GetComponent<Rigidbody2D>().linearVelocity = bulletSpawn.up * bulletSPD;
+        yield return new WaitForSeconds(bulletCool);
+        canFire = true;
     }
 
 }
