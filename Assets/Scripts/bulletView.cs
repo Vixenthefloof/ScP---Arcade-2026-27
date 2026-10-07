@@ -29,7 +29,7 @@ public class bulletView : MonoBehaviour
             buckShot.enabled = true;
             heavyShot.enabled = false;
         }
-        else
+        else if (curWeaponType.weaponType == 2)
         {
             normalShot.enabled = false;
             buckShot.enabled = false;

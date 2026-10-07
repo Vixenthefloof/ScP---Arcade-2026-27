@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8692550224688913552}
   - component: {fileID: 4441204968869330496}
   - component: {fileID: 8370924135770312408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Heavy Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,3 +171,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c42831cc6d6114f951772e51f96abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  playerObject: {fileID: 0}
