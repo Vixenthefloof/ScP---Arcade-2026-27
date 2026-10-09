@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - stopCollider
+  - levelBottom
+  - bulletTag
+  - enemBulletTag
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - Water
   - UI
   - Bullet
-  - 
-  - 
+  - Enemy
+  - Enemy Bullet
   - 
   - 
   - 

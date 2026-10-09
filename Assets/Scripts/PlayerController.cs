@@ -42,12 +42,12 @@ public class PlayerController : MonoBehaviour
 
     public void Fire(InputAction.CallbackContext ctx) // Allows the player to fire
     {   
-        if (canFire == true)
+        if (canFire == true) // If the player can fire do;
         {
-            if (weaponType == 0)
+            if (weaponType == 0) // gets current weapon type
             {
-                var bullet1 = Instantiate(bulletProj1, bulletSpawn.position, bulletSpawn.rotation);
-                bullet1.GetComponent<Rigidbody2D>().linearVelocity = bulletSpawn.up * bulletSPD;
+                var bullet1 = Instantiate(bulletProj1, bulletSpawn.position, bulletSpawn.rotation); // creates a bullet opject at the bulletspawn position
+                bullet1.GetComponent<Rigidbody2D>().linearVelocity = bulletSpawn.up * bulletSPD; // applys a upwards force to the bullet
 
             }
             else if (weaponType == 1)
@@ -56,8 +56,8 @@ public class PlayerController : MonoBehaviour
                 var bullet2l = Instantiate(bulletProj2, bulletSpawn.position, bulletSpawn.rotation);
                 var bullet2r = Instantiate(bulletProj2, bulletSpawn.position, bulletSpawn.rotation);
                 bullet2.GetComponent<Rigidbody2D>().linearVelocity = bulletSpawn.up * BulletArc;
-                bullet2l.GetComponent<Rigidbody2D>().linearVelocity = (bulletSpawn.up * BulletArc) - transform.right;
-                bullet2r.GetComponent<Rigidbody2D>().linearVelocity = (bulletSpawn.up * BulletArc) + transform.right;
+                bullet2l.GetComponent<Rigidbody2D>().linearVelocity = (bulletSpawn.up * BulletArc) - transform.right; // Applies a diagonal force to the bullet
+                bullet2r.GetComponent<Rigidbody2D>().linearVelocity = (bulletSpawn.up * BulletArc) + transform.right; // Applies a diagonal force to the bullet
             }
             else if (weaponType == 2)
             {
